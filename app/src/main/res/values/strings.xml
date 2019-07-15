@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">Maps API</string>
     <string name="title_activity_maps">Map</string>
+    <string name="marcador1">Marcador1</string>
+    <string name="longitud">Longitud</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud2">Longitud2</string>
+    <string name="colocar_marcadores">Colocar Marcadores</string>
+    <string name="marcador2">Marcador2</string>
+    <string name="latitud2">Latitud2</string>
+    <string name="longitud3">Longitud3</string>
+    <string name="latitud3">Latitud3</string>
+    <string name="marcador3">Marcador3</string>
+    <string name="logo">Logo</string>
+    <string name="burcar_direcci_n">Burcar Dirección</string>
+    <string name="latitud_longitud">Latitud/longitud</string>
 </resources>
