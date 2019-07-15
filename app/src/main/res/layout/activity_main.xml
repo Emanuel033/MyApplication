@@ -13,14 +13,14 @@
         android:id="@+id/imageView5"
         android:layout_width="0dp"
         android:layout_height="250dp"
-
+        android:src="@drawable/ic_portada_app"
+        android:background="@color/secondaryDarkColor"
         android:contentDescription="@string/logo"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="@+id/guideline3"
-        app:srcCompat="@drawable/portada_app"
-        tools:srcCompat="@drawable/portada_app" />
+        />
 
     <Button
         android:id="@+id/button2"
