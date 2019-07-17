@@ -24,35 +24,73 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
 
+        android:layout_marginBottom="8dp"
         android:layout_weight="1"
         android:background="@drawable/bg_buttons"
-        android:text="@string/latitud_longitud"
-        android:textAlignment="center"
-        android:paddingRight="10dp"
         android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/latitud_longitud"
+
+
+        android:textAlignment="center"
         android:textColor="@color/colorAccent"
-
-
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:paddingRight="10dp"
-        android:paddingLeft="10dp"
+
+
+        android:layout_marginBottom="8dp"
         android:background="@drawable/bg_buttons"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="api_location"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_buttons"
+
+
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/gps"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_buttons"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:text="@string/burcar_direcci_n"
         android:textColor="@color/colorAccent"
-
-
-        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintRight_toRightOf="@id/button2" />
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"

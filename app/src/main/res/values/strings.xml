@@ -14,4 +14,6 @@
     <string name="logo">Logo</string>
     <string name="burcar_direcci_n">Burcar Dirección</string>
     <string name="latitud_longitud">Latitud/longitud</string>
+    <string name="gps">GPS</string>
+    <string name="api_location">Api Location</string>
 </resources>
